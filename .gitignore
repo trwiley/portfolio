@@ -92,4 +92,3 @@ sw.*
 #nodeenv env
 env
 
-package-lock.json
