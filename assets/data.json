@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Various Blobs",
+        "year": "2020",
+        "medium": "Pens, Copics",
+        "tag": "traditional",
+        "imgUrl": "~/assets/art_img/traditional/blobs.jpg"
+    },
+    {
+        "title": "Bulky",
+        "year": "2020",
+        "medium": "Pens, Copics",
+        "tag": "traditional",
+        "imgUrl": "~/assets/art_img/traditional/bulky.jpg"
+    },
+    {
+        "title": "Character Sheet",
+        "year": "2020",
+        "medium": "Pens, Copics",
+        "tag": "traditional",
+        "imgUrl": "~/assets/art_img/traditional/lil_character.jpg"
+    },
+    {
+        "title": "RADio",
+        "year": "2020",
+        "medium": "Pens, Copics",
+        "tag": "traditional",
+        "imgUrl": "~/assets/art_img/traditional/radio.jpg"
+    },
+    {
+        "title": "South Bend Blobs",
+        "year": "2020",
+        "medium": "Poscas",
+        "tag": "traditional",
+        "imgUrl":"~/assets/art_img/traditional/sb_blobs.jpgs"
+    }
+]
