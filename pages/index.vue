@@ -1,20 +1,29 @@
 <template>
   <div class="main-container">
     <div class="sub-container">
-      <img class="nav" src="/img/icons-and-links/traditional_header.png" />
+      <NuxtLink to="/traditional">
+        <img class="nav" src="/img/icons-and-links/traditional_header.png" />
+      </NuxtLink>  
       <img class="nav" src="img/icons-and-links/alien_icon.png" />
     </div>
     <div class="sub-container">
       <img class="nav" src="img/icons-and-links/blob_icon.png" />
-      <img class="nav" src="/img/icons-and-links/digital_header.png" />
+      <NuxtLink to="/digital">
+        <img class="nav" src="/img/icons-and-links/digital_header.png" />
+      </NuxtLink> 
     </div>
     <div class="sub-container">
       <img class="nav" src="/img/icons-and-links/cone_icon.png" />
-      <img class="nav" src="/img/icons-and-links/3d_header.png" />
+      <NuxtLink to="/3d">
+        <img class="nav" src="/img/icons-and-links/3d_header.png" />
+      </NuxtLink>
+     
       <img class="nav" src="/img/icons-and-links/cube_icon.png" />
     </div>
     <div class="sub-container">
-      <img class="nav" src="/img/icons-and-links/about_header.png" />
+      <NuxtLink to="/about">
+        <img class="nav" src="/img/icons-and-links/about_header.png" />
+      </NuxtLink>
       <img class="nav" src="/img/icons-and-links/face.png" />
     </div>
     <div class="sub-container">
