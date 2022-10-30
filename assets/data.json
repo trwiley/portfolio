@@ -1,4 +1,4 @@
-[
+{"images": [
     {
         "title": "Various Blobs",
         "year": "2020",
@@ -32,7 +32,7 @@
         "year": "2020",
         "medium": "Poscas",
         "tag": "traditional",
-        "imgUrl":"~/assets/art_img/traditional/sb_blobs.jpg"
+        "imgUrl": "~/assets/art_img/traditional/sb_blobs.jpg"
     },
     {
         "title": "Traffic Cones' Discovery",
@@ -146,5 +146,4 @@
         "description": "Another album cover for a fictional band - This was a picture I took with my old point and shoot (RIP) using expired film, which I then drew over digitally in Krita.",
         "imgUrl": "~/assets/art-img/digital/walkabout.png"
     }
-
-]
+]}

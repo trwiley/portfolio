@@ -1,10 +1,14 @@
 <template>
-    <p>under construction!</p>
+    <ImageGallery />
 </template>
 
 <script>
+import ImageGallery from '../components/ImageGallery.vue'
 export default{
-    name: 'TraditionalPage'
+    name: 'TraditionalPage',
+    components: {
+        ImageGallery,
+    }
 }
 </script>
 
