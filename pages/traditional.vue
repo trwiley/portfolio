@@ -1,5 +1,5 @@
 <template>
-    <ImageGallery />
+    <ImageGallery filter="traditional"/>
 </template>
 
 <script>
