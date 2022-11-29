@@ -4,84 +4,84 @@
         "year": "2020",
         "medium": "Pens, Copics",
         "tag": "traditional",
-        "imgUrl": "~/assets/art_img/traditional/blobs.jpg"
+        "imgUrl": "art_img/traditional/blobs.jpg"
     },
     {
         "title": "Bulky",
         "year": "2020",
         "medium": "Pens, Copics",
         "tag": "traditional",
-        "imgUrl": "~/assets/art_img/traditional/bulky.jpg"
+        "imgUrl": "art_img/traditional/bulky.jpg"
     },
     {
         "title": "Character Sheet",
         "year": "2020",
         "medium": "Pens, Copics",
         "tag": "traditional",
-        "imgUrl": "~/assets/art_img/traditional/lil_character.jpg"
+        "imgUrl": "art_img/traditional/lil_character.jpg"
     },
     {
         "title": "RADio",
         "year": "2020",
         "medium": "Pens, Copics",
         "tag": "traditional",
-        "imgUrl": "~/assets/art_img/tradintional/radio.jpg"
+        "imgUrl": "art_img/traditional/radio.jpg"
     },
     {
         "title": "South Bend Blobs",
         "year": "2020",
         "medium": "Poscas",
         "tag": "traditional",
-        "imgUrl": "~/assets/art_img/traditional/sb_blobs.jpg"
+        "imgUrl": "art_img/traditional/sb_blobs.jpg"
     },
     {
         "title": "Traffic Cones' Discovery",
         "year": "2020",
         "medium": "Copics, Prismacolor pencils",
         "tag": "traditional",
-        "imgUrl": "~/assets/art-img/traditional/traffic_cones.jpg"
+        "imgUrl": "art_img/traditional/traffic_cones.jpg"
     },
     {
         "title": "Characters from 'Wagyan Paradise",
         "year": "2020",
         "medium": "Pens, Copics",
         "tag": "traditional",
-        "imgUrl": "~/assets/art-img/traditional/wagyan.jpg"
+        "imgUrl": "art_img/traditional/wagyan.jpg"
     },
     {
         "title": "Honeybee",
         "year": "2022",
         "medium": "Acrylics",
         "tag": "traditional",
-        "imgUrl": "~/assets/art-img/traditional/honeybee.jpg"
+        "imgUrl": "art_img/traditional/honeybee.jpg"
     },
     {
         "title": "La Creatura",
         "year": "2022",
         "medium": "Acrylics",
         "tag": "traditional",
-        "imgUrl": "~/assets/art-img/traditional/the_creature.jpg"
+        "imgUrl": "art_img/traditional/the_creature.jpg"
     },
     {
         "title": "Equilibrium",
         "year": "2022",
         "medium": "Acrylics",
         "tag": "traditional",
-        "imgUrl": "~/assets/art-img/traditional/equilibrium"
+        "imgUrl": "art_img/traditional/equilibrium.jpg"
     },
     {
         "title": "Little Friends",
         "year": "2020",
         "medium": "Digital - Microsoft Paint",
         "tag": "digital",
-        "imgUrl": "~/assets/art-img/digital/creatures.png"
+        "imgUrl": "art_img/digital/creatures.png"
     },
     {
         "title": "We Three Ghosts",
         "year": "2021",
         "medium": "Digital - Krita",
         "tag": "digital",
-        "imgUrl": "~/assets/art-img/digital/ghosts.png"
+        "imgUrl": "art_img/digital/ghosts.png"
     },
     {
         "title": "The Summoning",
@@ -89,7 +89,7 @@
         "medium": "Digital - crappy toy camera, Paint.NET, Aseprite",
         "tag": "digital",
         "description": "I made this by taking a picture with a crappy toy camera, then applying various filters and effects to it in Paint.NET, then drawing over that in Aseprite.",
-        "imgUrl": "~/assets/art-img/digital/juxtaposition.png"
+        "imgUrl": "art_img/digital/juxtaposition.png"
     },
     {
         "title": "Pyramid Dash!!",
@@ -97,7 +97,7 @@
         "medium": "Digital - Krita",
         "tag": "digital",
         "description": "Made for the Famicase 2022 exhibition",
-        "imgUrl": "~/assets/art-img/digital/pyramid_dash.jpg"
+        "imgUrl": "art_img/digital/pyramid_dash.jpg"
     },
     {
         "title": "Adventures in Nowhere",
@@ -105,7 +105,7 @@
         "medium": "Digital - Krita",
         "tag": "digital",
         "description": "Album cover for a fictional band called <em>The Orb</>",
-        "imgUrl": "~/assets/art-img/digital/adventures_in_nowhere.png"
+        "imgUrl": "art_img/digital/adventures_in_nowhere.png"
     },
     {
         "title": "Soft Land",
@@ -113,7 +113,7 @@
         "medium": "Digital - Krita",
         "tag": "digital",
         "description": "Box art for a fictional, Game Boy style game.",
-        "imgUrl": "~assets/art-img/digital/soft_land_box_art.png"
+        "imgUrl": "art_img/digital/soft_land_box_art.png"
     },
     {
         "title": "Spaceship",
@@ -121,7 +121,7 @@
         "medium": "Digital - Aseprite",
         "tag": "digital",
         "description": "Unused asset from a project",
-        "imgUrl": "~/assets/art-img/digital/spaceship.gif"
+        "imgUrl": "art_img/digital/spaceship.gif"
     },
     {
         "title": "Creatures on the curb",
@@ -129,14 +129,14 @@
         "medium": "Digital - crappy toy camera, Paint.NET, Aseprite",
         "tag": "digital",
         "description": "I made this by taking a picture with a crappy toy camera, then applying various filters and effects to it in Paint.NET, then drawing over that in Aseprite.",
-        "imgUrl": "~/assets/art-img/digital/curb.png"
+        "imgUrl": "art_img/digital/curb.png"
     },
     {
         "title": "Shapes study",
         "year": "2022",
         "medium": "Digital - Krita",
         "tag": "digital",
-        "imgUrl": "~/assets/art-img/digital/wacky-shapes.png"
+        "imgUrl": "art_img/digital/wacky-shapes.png"
     },
     {
         "title": "Walkabout in the sand",
@@ -144,6 +144,6 @@
         "medium": "Expired film and Krita",
         "tag": "digital",
         "description": "Another album cover for a fictional band - This was a picture I took with my old point and shoot (RIP) using expired film, which I then drew over digitally in Krita.",
-        "imgUrl": "~/assets/art-img/digital/walkabout.png"
+        "imgUrl": "art_img/digital/walkabout.png"
     }
 ]}
