@@ -1,9 +1,11 @@
 <template>
-    <div class="gallery">
-        <figure v-for="(item, index) in filteredImages">
-            <img :src="require(`../assets/${item.imgUrl}`)" class="image-style"/>
-        </figure>
-    </div>  
+    <div class="content-parent">
+        <div class="gallery">
+            <figure v-for="(item, index) in filteredImages">
+                <img :src="require(`../assets/${item.imgUrl}`)" class="image-style"/>
+            </figure>
+        </div>  
+    </div>
 </template>
 
 <script>
@@ -32,13 +34,18 @@ export default{
 </script>
 
 <style scoped>
+    .content-parent{
+        display: grid;
+        justify-content: center;
+    }
     .gallery{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 400px);
         grid-gap: 15px;
+        justify-items: center;
     }
     .image-style{
-        width: 200px;
+        width: 400px;
         height: auto;
     }
 
