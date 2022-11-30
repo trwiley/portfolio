@@ -1,12 +1,30 @@
 <template>
-    <p>under construction!</p>
+    <div>
+       <div class="header-align">
+           <img src="/img/icons-and-links/3d_header.png" alt="3D Art" class="header-style"/>
+       </div>    
+       <ImageGallery filter="3d"/>
+   </div>
 </template>
 
 <script>
+import ImageGallery from '~/components/ImageGallery.vue';
 export default{
-    name: '3dPage'
+    name: '3dPage',
+    components: {
+        ImageGallery
+    }
+
 }
 </script>
 
-<style>
+<style scoped>
+    .header-style{
+        height: 100px;
+        width: auto;
+    }
+    .header-align{
+        text-align: center; 
+        margin: 16px;
+    }
 </style>

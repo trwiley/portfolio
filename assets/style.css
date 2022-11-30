@@ -23,6 +23,23 @@ body {
     background-color: #FBF9EA;
 }
 
+h2 {
+    font-family: "Mali", sans-serif;
+    font-size: 20pt;
+}
+
+a {
+    color: #F42432;
+}
+
+a:hover{
+    color: #228D93;
+}
+
+a:visited{
+    color: #26318A;
+}
+
 .border-style {
     border-color: #0B3949;
     border-radius: 12px;

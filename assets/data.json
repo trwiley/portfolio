@@ -136,7 +136,7 @@
         "year": "2022",
         "medium": "Digital - Krita",
         "tag": "digital",
-        "imgUrl": "art_img/digital/wacky-shapes.png"
+        "imgUrl": "art_img/digital/wacky_shapes.png"
     },
     {
         "title": "Walkabout in the sand",
@@ -145,5 +145,27 @@
         "tag": "digital",
         "description": "Another album cover for a fictional band - This was a picture I took with my old point and shoot (RIP) using expired film, which I then drew over digitally in Krita.",
         "imgUrl": "art_img/digital/walkabout.png"
+    },
+    {
+        "title": "The Blorp",
+        "year": "2022",
+        "medium": "Blender",
+        "tag": "3d",
+        "imgUrl": "art_img/3D/blorp.png"
+    },
+    {
+        "title": "Dude and Shapes",
+        "year": "2022",
+        "medium": "Blender",
+        "tag": "3d",
+        "imgUrl": "art_img/3D/print_render.png"
+    },
+    {
+        "title": "Panpon Box",
+        "year": "2022",
+        "medium": "Blender",
+        "tag": "3d",
+        "description": "Box for a fictional game.",
+        "imgUrl": "art_img/3D/panpon_final.png"
     }
 ]}

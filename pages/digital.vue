@@ -1,12 +1,29 @@
 <template>
-    <p>under construction!</p>
+     <div>
+        <div class="header-align">
+            <img src="/img/icons-and-links/digital_header.png" alt="Digital Art" class="header-style"/>
+        </div>    
+        <ImageGallery filter="digital"/>
+    </div>
 </template>
 
 <script>
+import ImageGallery from '~/components/ImageGallery.vue';
 export default{
-    name: 'DigitalPage'
+    name: 'DigitalPage',
+    components: {
+        ImageGallery
+    }
 }
 </script>
 
-<style>
+<style scoped>
+    .header-style{
+        height: 100px;
+        width: auto;
+    }
+    .header-align{
+        text-align: center; 
+        margin: 16px;
+    }
 </style>

@@ -1,11 +1,19 @@
 <template>
-    <div class="content-parent">
-        <div class="gallery">
-            <figure v-for="(item, index) in filteredImages">
-                <img :src="require(`../assets/${item.imgUrl}`)" class="image-style border-style"/>
-            </figure>
-        </div>  
+    <div>
+        <div class="content-parent">
+            <div class="gallery">
+                <figure v-for="(item, index) in filteredImages">
+                    <img :src="require(`../assets/${item.imgUrl}`)" class="image-style border-style"/>
+                </figure>
+            </div>  
+        </div>
+        <div style="text-align: right; margin: 36px">
+            <NuxtLink to="/">
+                <h2>back</h2>
+            </NuxtLink>
+        </div>
     </div>
+   
 </template>
 
 <script>

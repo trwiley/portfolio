@@ -1,5 +1,11 @@
 <template>
-    <ImageGallery filter="traditional"/>
+    <div>
+        <div class="header-align">
+            <img src="/img/icons-and-links/traditional_header.png" alt="Traditional Art" class="header-style"/>
+        </div>    
+        <ImageGallery filter="traditional"/>
+    </div>
+
 </template>
 
 <script>
@@ -12,5 +18,13 @@ export default{
 }
 </script>
 
-<style>
+<style scoped>
+    .header-style{
+        height: 100px;
+        width: auto;
+    }
+    .header-align{
+        text-align: center; 
+        margin: 16px;
+    }
 </style>
