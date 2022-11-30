@@ -1,3 +1,24 @@
+@font-face {
+    font-family: 'Mali';
+    src: url(../static/fonts/Mali-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Mali";
+    src: url(../static/fonts/Mali-Bold.ttf);
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Mali";
+    src: url(../static/fonts/Mali-Bold.ttf);
+    font-style: normal;
+    font-weight: bold;
+}
+
 body {
     background-color: #FBF9EA;
 }
