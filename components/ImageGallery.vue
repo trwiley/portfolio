@@ -2,7 +2,7 @@
     <div class="content-parent">
         <div class="gallery">
             <figure v-for="(item, index) in filteredImages">
-                <img :src="require(`../assets/${item.imgUrl}`)" class="image-style"/>
+                <img :src="require(`../assets/${item.imgUrl}`)" class="image-style border-style"/>
             </figure>
         </div>  
     </div>
@@ -41,7 +41,7 @@ export default{
     .gallery{
         display: grid;
         grid-template-columns: repeat(3, 400px);
-        grid-gap: 15px;
+        grid-gap: 36px;
         justify-items: center;
     }
     .image-style{

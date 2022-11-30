@@ -1,3 +1,10 @@
 body {
     background-color: #FBF9EA;
 }
+
+.border-style {
+    border-color: #0B3949;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 5px;
+}
