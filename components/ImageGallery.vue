@@ -1,5 +1,7 @@
 <template>
     <div>
+        <Modal :hideModal="hideModal" :modalShown="modalShown" />
+        <button @click="showModal">temp</button>
         <div class="content-parent">
             <div class="gallery">
                 <figure v-for="(item, index) in filteredImages">
@@ -18,14 +20,19 @@
 
 <script>
 import img from '../assets/data.json';
+import Modal from './Modal.vue'
 
 export default{
     name: 'ImageGallery',
     props: ['filter'],
+    components: {
+        Modal
+    },
     data () {
         return {
             imageUrls: img.images,
             filteredImages: [],
+            modalShown: false
         }  
     },
    
@@ -33,6 +40,12 @@ export default{
         filterByTag() {
             const filtered = this.imageUrls.filter(image => image.tag === this.filter);
             this.filteredImages = [...filtered];
+        },
+        showModal() {
+            this.modalShown = true;
+        },
+        hideModal() {
+            this.modalShown = false;
         }
     },
     created () {
