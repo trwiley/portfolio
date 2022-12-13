@@ -28,6 +28,17 @@ h2 {
     font-size: 20pt;
 }
 
+h3 {
+    font-family: "Mali", sans-serif;
+    font-size: 16pt;
+}
+
+p {
+    font-family: "Mali", sans-serif;
+    font-size: 12pt;
+    font-weight: normal;
+}
+
 a {
     color: #F42432;
 }

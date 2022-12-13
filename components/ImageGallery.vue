@@ -1,11 +1,10 @@
 <template>
     <div>
-        <Modal :hideModal="hideModal" :modalShown="modalShown" />
-        <button @click="showModal">temp</button>
+        <Modal :hideModal="hideModal" :modalShown="modalShown" :artInfo="currentObject" />
         <div class="content-parent">
             <div class="gallery">
                 <figure v-for="(item, index) in filteredImages">
-                    <img :src="require(`../assets/${item.imgUrl}`)" class="image-style border-style"/>
+                    <img :src="require(`../assets/${item.imgUrl}`)" class="image-style border-style" @click="setModalArt(item)"/>
                 </figure>
             </div>  
         </div>
@@ -32,7 +31,13 @@ export default{
         return {
             imageUrls: img.images,
             filteredImages: [],
-            modalShown: false
+            modalShown: false,
+            currentObject: {
+                'title': 'p',
+                'year': 'p',
+                'medium': 'p',
+                'imgUrl': 'art_img/placeholder.png'
+            }
         }  
     },
    
@@ -46,6 +51,10 @@ export default{
         },
         hideModal() {
             this.modalShown = false;
+        },
+        setModalArt(item) {
+            this.currentObject = {...item};
+            this.showModal();
         }
     },
     created () {
