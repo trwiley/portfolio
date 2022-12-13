@@ -4,7 +4,7 @@
         <div class="content-parent">
             <div class="gallery">
                 <figure v-for="(item, index) in filteredImages">
-                    <img :src="require(`../assets/${item.imgUrl}`)" class="image-style border-style" @click="setModalArt(item)"/>
+                    <img :src="require(`../assets/${item.imgUrl}`)" class="image-style img-border" @click="setModalArt(item)"/>
                 </figure>
             </div>  
         </div>
@@ -76,7 +76,7 @@ export default{
     }
     .image-style{
         width: 400px;
-        height: auto;
+        height: 400px;
     }
 
 </style>

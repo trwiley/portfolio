@@ -62,13 +62,13 @@ export default{
 }
 
 .modal::-webkit-scrollbar-track {
-    background: #228D93;
+    background: #26318A;
 }
   
 .modal::-webkit-scrollbar-thumb {
-    background-color: #26318A; 
+    background-color: #228D93; 
     border-radius: 20px;
-    border: 3px solid #228D93;
+    border: 3px solid #26318A;
 }
 
 .modal-background {
