@@ -1,8 +1,13 @@
 <template>
     <div>
         <div class="modal-background" :style="modalShown ? 'display: block' : 'display: none'" @click="hideModal"></div>
+      
         <div class="modal border-style" :style="modalShown ? 'display: block' : 'display: none'">
-            <img src="img/icons-and-links/close.png" alt="close" @click="hideModal" class="close-icon"/>
+            <div class="close-icon">
+                <img src="img/icons-and-links/close.png" alt="close" @click="hideModal"/>
+            </div>
+            
+            
             <div class="container">
                 <div class="item">
                     <img :src="require(`../assets/${artInfo.imgUrl}`)" class="image-style"/>
@@ -48,11 +53,24 @@ export default{
     height: 90%;
     width: 75%;
     overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #26318A #228D93;
+ 
 }
-.modal > p {
-	padding: 15px;
-    margin: 0;
+.modal::-webkit-scrollbar {
+    width: 20px;
 }
+
+.modal::-webkit-scrollbar-track {
+    background: #228D93;
+}
+  
+.modal::-webkit-scrollbar-thumb {
+    background-color: #26318A; 
+    border-radius: 20px;
+    border: 3px solid #228D93;
+}
+
 .modal-background {
 	width: 100%;
     height: 100%;
@@ -61,15 +79,11 @@ export default{
     top: 0;
     left: 0;
     z-index: 9998;
-}
-
-.modal-show {
-    display: block
+    
 }
 
 .close-icon {
     margin: 12px;
-
 }
 .close-icon:hover{
     cursor: pointer;
@@ -86,4 +100,6 @@ export default{
 .item{
     margin: 36px;
 }
+
+
 </style>
