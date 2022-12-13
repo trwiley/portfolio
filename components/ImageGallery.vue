@@ -67,6 +67,7 @@ export default{
     .content-parent{
         display: grid;
         justify-content: center;
+        margin-top: 36px;
     }
     .gallery{
         display: grid;
