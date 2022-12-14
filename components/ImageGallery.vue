@@ -8,7 +8,7 @@
                 </figure>
             </div>  
         </div>
-        <div style="text-align: right; margin: 36px">
+        <div style="text-align: left; margin: 36px">
             <NuxtLink to="/">
                 <h2>back</h2>
             </NuxtLink>
