@@ -27,11 +27,21 @@
       <img class="nav" src="/img/icons-and-links/face.png" />
     </div>
     <div class="sub-container">
-      <img class="icon" src="/img/icons-and-links/instagram_icon.png" />
-      <img class="icon" src="/img/icons-and-links/github_icon.png" />
-      <img class="icon" src="/img/icons-and-links/itch_io_icon.png" />
-      <img class="icon" src="/img/icons-and-links/redbubble_icon.png" />
-      <img class="icon" src="/img/icons-and-links/email_icon.png" />
+      <a href="https://www.instagram.com/uncool_and_uncouth/">
+        <img class="icon" src="/img/icons-and-links/instagram_icon.png" />
+      </a> 
+      <a href="https://github.com/trwiley">
+        <img class="icon" src="/img/icons-and-links/github_icon.png" />
+      </a>
+      <a href="https://uncoolanduncouth.itch.io/">
+        <img class="icon" src="/img/icons-and-links/itch_io_icon.png" />
+      </a>
+      <a href="https://www.redbubble.com/people/uncool-uncouth/shop">
+        <img class="icon" src="/img/icons-and-links/redbubble_icon.png" />
+      </a>
+      <a href="mailto:taylor.r.wiley@gmail.com">
+        <img class="icon" src="/img/icons-and-links/e-mail_icon.png" />
+      </a>  
     </div>
   </div>
 </template>
