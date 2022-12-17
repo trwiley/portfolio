@@ -71,18 +71,23 @@ a:visited{
 
 .border-style {
     border-color: #26318A;
-    border-radius: 12px;
+    border-radius: 25px;
     border-style: solid;
     border-width: 7px;
 }
 
 .img-border {
     border-color: #26318A;
-    border-radius: 50%;
+    border-radius: 1px 45px;
     border-style: solid;
-    border-width: 7px;
+    border-width: 9px;
     object-fit: cover;
-    filter: drop-shadow(-10px 20px 0px #F42432);
+}
+
+.art-border {
+    border-color: #F42432;
+    border-style: dotted;
+    border-width: 7px;
 }
 
 

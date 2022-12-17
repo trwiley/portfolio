@@ -1,5 +1,6 @@
 <template>
      <div>
+        <BackArrow />
         <div class="header-align">
             <img src="/img/icons-and-links/digital_header.png" alt="Digital Art" class="header-style"/>
         </div>    
@@ -9,10 +10,12 @@
 
 <script>
 import ImageGallery from '~/components/ImageGallery.vue';
+import BackArrow from '~/components/BackArrow.vue';
 export default{
     name: 'DigitalPage',
     components: {
-        ImageGallery
+        ImageGallery,
+        BackArrow
     }
 }
 </script>

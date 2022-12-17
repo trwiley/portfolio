@@ -26,6 +26,7 @@
       </NuxtLink>
       <img class="nav" src="/img/icons-and-links/face.png" />
     </div>
+    <br />
     <div class="sub-container">
       <a href="https://www.instagram.com/uncool_and_uncouth/">
         <img class="icon" src="/img/icons-and-links/instagram_icon.png" />

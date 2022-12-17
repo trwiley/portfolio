@@ -10,7 +10,7 @@
             
             <div class="container">
                 <div class="item">
-                    <img :src="require(`../assets/${artInfo.imgUrl}`)" class="image-style"/>
+                    <img :src="require(`../assets/${artInfo.imgUrl}`)" class="image-style art-border"/>
                 </div>
                 <div class="item">
                     <h2>{{ artInfo.title }}</h2>
