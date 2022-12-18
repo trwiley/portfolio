@@ -71,13 +71,53 @@ export default{
     }
     .gallery{
         display: grid;
-        grid-template-columns: repeat(3, 400px);
+        grid-template-columns: repeat(3, 350px);
         grid-gap: 36px;
         justify-items: center;
     }
-    .image-style{
-        width: 400px;
-        height: 400px;
+
+    @media(min-width: 1200px){
+        .gallery{
+            grid-template-columns: repeat(3, 350px);
+        }
+        .image-style{
+            width: 350px;
+            height: 350px;
+        }
+
+    }
+
+    @media(max-width: 1199px) and (min-width: 900px){
+        .gallery{
+            grid-template-columns: repeat(2, 350px);
+        }
+        .image-style{
+            width: 350px;
+            height: 350px;
+        }
+    }
+
+    @media(max-width: 899px) and (min-width: 551px){
+        .gallery{
+            grid-template-columns: repeat(2, 250px);
+        }
+        .image-style{
+            width: 250px;
+            height: 250px;
+        }
+
+    }
+
+    @media(max-width: 550px){
+        .gallery{
+            grid-template-columns: repeat(1, 300px);
+        }
+        .image-style{
+            width: 300px;
+            height: 300px;
+        }
+
+
     }
 
 </style>

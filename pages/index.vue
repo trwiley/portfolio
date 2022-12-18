@@ -57,19 +57,36 @@ export default {
  .main-container {
     display: flex;
     flex-direction: column;
-    margin-top: 5%;
     align-items: center;
 
   }
   .nav {
     align-self: center;
-    max-height: 100px;
-    max-width: auto;
   }
   .icon {
     align-self: center;
     max-height: 36px;
     max-width: auto;
+  }
+
+  @media (min-width: 526px){
+    .main-container{
+      margin-top: 7%;
+    }
+    .nav{
+      max-height: 100px;
+      max-width: auto;
+    }
+  }
+
+  @media (max-width: 525px){
+    .main-container{
+      margin-top: 40%;
+    }
+    .nav{
+      max-height: 65px;
+      max-width: auto;
+    }
   }
 </style>
 

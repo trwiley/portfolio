@@ -89,16 +89,81 @@ export default{
     cursor: pointer;
 }
 
-.image-style{
-    width: 500px;
-    height: auto;
-}
+
+
+
 .container{
-    display: flex;
-    flex-direction: row;
+        display: flex;
 }
-.item{
-    margin: 36px;
+
+@media(min-width: 1200px){
+    .container{
+        flex-direction: row;
+    }
+    .image-style{
+        width: 500px;
+        height: auto;
+    }
+
+    .item{
+        margin: 36px;
+    }
+}
+
+@media(max-width: 1199px) and (min-width: 800px){
+    .container{
+        flex-direction: column;
+    }
+    .item{
+        text-align: center;
+    }
+    .image-style{
+        width: 500px;
+        height: auto;
+    }
+
+    .item{
+        margin: 36px;
+    }
+
+}
+
+@media(max-width: 799px) and (min-width: 500px){
+    .container{
+        flex-direction: column;
+    }
+    .item{
+        text-align: center;
+    }
+    .image-style{
+        width: 400px;
+        height: auto;
+    }
+
+    .item{
+        margin: 24px;
+    }
+}
+
+@media(max-width: 499px){
+    .container{
+        flex-direction: column;
+    }
+    .item{
+        text-align: center;
+    }
+    .image-style{
+        width: 200px;
+        height: auto;
+    }
+    .item{
+        margin: 12px;
+    }
+
+    .modal{
+        height: 80%;
+    }
+
 }
 
 
