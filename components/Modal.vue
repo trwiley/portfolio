@@ -17,6 +17,7 @@
                     <h3>Year: {{ artInfo.year }}</h3>
                     <h3>Medium: {{ artInfo.medium }}</h3>
                     <p v-if="descriptionExists">{{ artInfo.description }}</p>
+                    <a v-if="linkExists" :href=artInfo.link>{{ artInfo.linkDescription }}</a>
                 </div>
             </div>
            
@@ -35,6 +36,9 @@ export default{
     methods: {
         descriptionExists() {
             return(this.artInfo.description !== undefined);
+        },
+        linkExists() {
+            return(this.artInfo.link !== undefined);
         }
     }  
 }

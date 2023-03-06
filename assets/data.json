@@ -1,5 +1,16 @@
 {"images": [
     {
+        "title": "Dance",
+        "year": "2023",
+        "medium": "Blender, DaVinci Resolve",
+        "tag": "3d",
+        "imgUrl": "art_img/3D/dance_screenshot.png",
+        "description": "A short animated video made as a part of my involvement in the Studio 304 Film Crew @ SJCPL.",
+        "link": "https://vimeo.com/manage/videos/805248073",
+        "linkDescription": "Link to video"
+    },
+  
+    {
         "title": "Dancing Aliens",
         "year": "2023",
         "medium": "Blender",

@@ -58,7 +58,9 @@ p {
 }
 
 a {
+    font-family: "Mali", sans-serif;
     color: #F42432;
+
 }
 
 a:hover{
