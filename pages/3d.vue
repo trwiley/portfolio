@@ -12,7 +12,7 @@
 import ImageGallery from '~/components/ImageGallery.vue';
 import BackArrow from '~/components/BackArrow.vue';
 export default{
-    name: '3dPage',
+    name: 'ThreeDPage',
     components: {
         ImageGallery,
         BackArrow
