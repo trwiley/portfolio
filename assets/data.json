@@ -1,5 +1,33 @@
 {"images": [
     {
+        "title": "Bear",
+        "year": "2023",
+        "medium": "Procreate",
+        "tag": "digital",
+        "imgUrl": "art_img/digital/Bear-small.png"
+    },
+    {
+        "title": "Emerge",
+        "year": "2023",
+        "medium": "Procreate, Affinity Photo",
+        "tag": "digital",
+        "imgUrl": "art_img/digital/Emerge-small.png"
+    },
+    {
+        "title": "Planet",
+        "year": "2023",
+        "medium": "Procreate",
+        "tag": "digital",
+        "imgUrl": "art_img/digital/Planet-small.png"
+    },
+    {
+        "title": "Reflection",
+        "year": "2023",
+        "medium": "Procreate, Affinity Photo",
+        "tag": "digital",
+        "imgUrl": "art_img/digital/Reflection-small.png"
+    },
+    {
         "title": "Various Blobs",
         "year": "2020",
         "medium": "Pens, Copics",
@@ -168,4 +196,5 @@
         "description": "Box for a fictional game.",
         "imgUrl": "art_img/3D/panpon_final.png"
     }
+
 ]}
