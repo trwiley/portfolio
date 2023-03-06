@@ -1,5 +1,19 @@
 {"images": [
     {
+        "title": "Dancing Aliens",
+        "year": "2023",
+        "medium": "Blender",
+        "tag": "3d",
+        "imgUrl": "art_img/3D/aliens_small.png"
+    },
+    {
+        "title": "The Squad",
+        "year": "2023",
+        "medium": "Blender",
+        "tag": "3d",
+        "imgUrl": "art_img/3D/variety_of_pobbles-small.png"
+    },
+    {
         "title": "Bear",
         "year": "2023",
         "medium": "Procreate",
